@@ -30,7 +30,7 @@ export default function AdminQuizList() {
       <div className="max-w-5xl mx-auto">
         {/* Back button */}
         <button
-          onClick={() => navigate(-1)} // Go back to previous page
+          onClick={() => navigate("/admin")} // Go back to previous page
           className="mb-6 text-blue-500 hover:underline"
         >
           &larr; Back
